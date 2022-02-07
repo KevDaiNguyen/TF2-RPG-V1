@@ -346,7 +346,7 @@ public class SoldierWepStats : MonoBehaviour
     public void Equalizer()
     {
         currentSprite = wepIstances.soldierMelees[5];
-        numOfActions = 2;
+        numOfActions = 1;
 
         wepDescription1 = "Melee Swing: Hit the enemy in front for moderate damage, dealing more damage at low health and less damage at high health";
         wepDescription2 = "Kamikaze: Use the grenades on your chest to blow yourself and the enemy in front of you, deal near unsurvivable damage";
@@ -411,7 +411,7 @@ public class SoldierWepStats : MonoBehaviour
     public void EscapePlan()
     {
         currentSprite = wepIstances.soldierMelees[4];
-        numOfActions = 2;
+        numOfActions = 1;
 
         wepDescription1 = "Melee Swing: Hit the enemy in front for moderate damage";
         wepDescription2 = "Kamikaze: Use the grenades on your chest to blow yourself and the enemy in front of you, deal near unsurvivable damage";
