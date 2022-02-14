@@ -6863,7 +6863,7 @@ MonoBehaviour:
   dyingInstance: {fileID: 1543038669}
   dieOnce: 0
   switchedClasses: 0
-  className: Medic
+  className: Demoman
   health: {fileID: 824825223}
   speed: {fileID: 243614502}
   dodgeChance: {fileID: 1299848961}
@@ -7609,7 +7609,7 @@ MonoBehaviour:
   dyingInstance: {fileID: 1543038669}
   dieOnce: 0
   switchedClasses: 0
-  className: Sniper
+  className: Pyro
   health: {fileID: 824825223}
   speed: {fileID: 243614502}
   dodgeChance: {fileID: 1299848961}

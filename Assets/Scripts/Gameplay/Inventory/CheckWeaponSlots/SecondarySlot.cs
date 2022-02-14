@@ -300,24 +300,13 @@ public class SecondarySlot : MonoBehaviour
     {
         ShowAmmo();
         ShowCurrentSprite();
-        int negativeCounter = 0;
-
-        if (timeCost1 < 0)
-        {
-            negativeCounter++;
-        }
-        else if (timeCost2 < 0)
-        {
-            negativeCounter++;
-        }
-        else if (timeCost3 < 0)
-        {
-            negativeCounter++;
-        }
-
-        switch (negativeCounter)
+        
+        switch (3 - numOfActions)
         {
             case 1:
+                actionSlots[0].SetActive(true);
+                actionSlots[1].SetActive(true);
+
                 timeToken1.GetComponent<Image>().sprite = timeTokenList[timeCost1];
                 timeToken2.GetComponent<Image>().sprite = timeTokenList[timeCost2];
                 textBox1.GetComponent<TextMeshProUGUI>().text = wepDescription1;
@@ -326,6 +315,8 @@ public class SecondarySlot : MonoBehaviour
                 actionSlots[2].SetActive(false);
                 break;
             case 2:
+                actionSlots[2].SetActive(true);
+
                 timeToken3.GetComponent<Image>().sprite = timeTokenList[timeCost3];
                 textBox3.GetComponent<TextMeshProUGUI>().text = wepDescription3;
 

@@ -337,7 +337,7 @@ public class ScoutWepStats : MonoBehaviour
 
         wepDescription1 = "Throw: Randomly fire innacurate pistol at enemy, hitting 1-6 times";
         wepDescription2 = "Pepper: Fire your shotgun from moderate range, hopefully finishing off weak opponents";
-        wepDescription3 = "Swing Batter Batter: Hit the enemy in front of you with your bat, if the enemy is on fire, deal more damage";
+        wepDescription3 = "Swing Batter Batter: Hit the enemy in front of you with your bat, if the enemy is on fire, deal critical damage";
 
         timeCost1 = 1;
         timeCost2 = 1;

@@ -149,7 +149,7 @@ public class SoldierWepStats : MonoBehaviour
         ammoInReserve = 20;
         numOfActions = 2;
 
-        wepDescription1 = "Rocket Launch: Fire a rocket at the enemy, dealing half damage to the surrounding enemeis";
+        wepDescription1 = "Stockpile: Load up to 3 rockets into the barrel and unleash it at random enemy slots";
         wepDescription2 = "Rocket Jump: Launch yourself into the AIR for 1-3 turns after this turn ends, sacrificing some health";
         wepDescription3 = "Stockpile: Load up to 3 rockets into the barrel and unleash it at random enemy slots";
 
@@ -376,7 +376,7 @@ public class SoldierWepStats : MonoBehaviour
 
         wepDescription1 = "Meatshot: Barrel stuff the shotgun into the enemy's chest, dealing massive damage. More shots in a row reduces accuracy";
         wepDescription2 = "Pepper: Fire your shotgun from moderate range, hopefully finishing off weak opponents. More shots in a row reduces accuracy";
-        wepDescription3 = "Melee Swing: Hit the enemy in front for moderate damage, on successful kill heal half of your base health";
+        wepDescription3 = "Melee Swing: Hit the enemy up to two front for moderate damage, on successful kill heal half of your base health";
 
         timeCost1 = 2;
         timeCost2 = 1;
@@ -387,7 +387,7 @@ public class SoldierWepStats : MonoBehaviour
         currentSprite = wepIstances.soldierMelees[6];
         numOfActions = 2;
 
-        wepDescription1 = "Melee Swing: Hit the enemy in up to 2 slots in front of you for low damage";
+        wepDescription1 = "Melee Swing: Hit the enemy in up to two slots in front of you for low damage";
         wepDescription2 = "Helpful Whips: Hit a teammate to give you and your teammate a speed boost for 1 turn";
         wepDescription3 = "Melee Swing: Hit the enemy in front for low damage";
 
